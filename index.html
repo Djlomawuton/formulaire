@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Se connecter</title>
+</head>
+<body>
+    <form method="get">
+        <h2>CONNEXION</h2>
+
+        <div class="form-element">
+            <p>Nom</p>
+            <input type=text name="nom">
+            <p class="alert">This field is required</p>
+        </div>
+
+        <div class="form-element">
+            <p>Prenom</p>
+            <input type=text name="prenom">
+            <p class="alert ">This field is required</p>
+        </div>
+
+        <div class="form-element">
+            <p>email</p>
+            <input type=email name="email" required>
+            <p class="alert">This field is required</p>
+        </div>
+
+        <div class="form-element">
+            <p>Mot de passe</p>
+            <input type=password name="password1" required>
+            <p class="alert hidden">This field is required</p>
+        </div>
+
+        <div class="form-element">
+            <p>Confirmation de passe</p>
+            <input type=password name="password2" required>
+            <p class="alert hidden">This field is required</p>
+        </div>
+
+        <div class="vald">
+            <button >Valider</button>
+        </div>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
